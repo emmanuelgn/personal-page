@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: #1a73e8;
+    padding: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navLink {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .textSection {
+    flex: 1;
+  }
+  
+  .textSection h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .textSection p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .socialLinks {
+    margin-top: 20px;
+  }
+  
+  .socialLink {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 16px;
+  }
+  
+  .imageSection {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
